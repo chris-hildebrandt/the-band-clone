@@ -12,10 +12,70 @@
       <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 
       <link rel="stylesheet" href="style.css">
-
   </head>
-  <body>
-      sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+  <body class="debug">
+    <nav>
+    </nav>
+    <head>
+    </head>
+    <!-- SECTION BAND INFO -->
+    <main>
+    <section>
+      <div class="row">
+        <h1></h1>
+        <p></p>
+      </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+      </div>
+    </section>
+    <!-- SECTION TOUR DATES -->
+    <section>
+      <div></div>
+      <div></div>
+      <div></div>
+    </section>
+<!-- SECTION CONTACT INFO -->
+<section>
+  <div>
+    <h1></h1>
+  </div>
+  <div>
+    <div class="col"></div>
+    <form action=""></form>
+  </div>
+</section>
+<!-- SECTION MAP -->
+<section>
+  <img src="" alt="">
+</section>
+</main>
+<!-- SECTION FOOTER -->
+<footer>
+  <!-- buttons -->
+  <div></div>
+  <h6>powered by awesome</h6>
+</footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 
