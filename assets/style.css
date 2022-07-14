@@ -8,10 +8,22 @@ main {
   flex-grow: 1;
 }
 
+a {
+  text-decoration: none;
+  color: inherit !important;
+  cursor: pointer;
+}
 
 .hero-img {
   background-image: url(https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   min-height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.map-img {
+  background-image: url(https://images.unsplash.com/photo-1500333070776-343c73e1eb4a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+  min-height: 60vh;
   background-size: cover;
   background-position: center;
 }
